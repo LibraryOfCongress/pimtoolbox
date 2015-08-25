@@ -1,0 +1,12 @@
+<h2>Validate : <%= erb :inputlinks, :layout => false %></h2>
+
+<br/>
+
+<p>
+  Takes a METS document containing PREMIS elements and validates it according 
+  to the PREMIS in METS Best Practice Guidelines.
+</p>
+
+<%= erb :inputforms, 
+        :layout => false, 
+        :locals => { :action => '/validate/results', :submit_text => 'Validate' } %>

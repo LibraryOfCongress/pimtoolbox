@@ -1,0 +1,346 @@
+html, body {
+	margin: 0px;
+	padding:0px;
+	background-image:url(../images/bg.gif);
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, form {
+	margin: 0px;
+	padding:0px;
+}
+
+#wrapper {
+	width:800px;
+	margin:0px auto;
+	background-color:#FFF;
+}
+
+#content {
+	width:778px;
+	margin:0px auto;
+	background-image:url(../images/bg_header_top.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+#header {
+	height:96px;
+}
+
+#logo {
+	width:258px;
+	float:left;
+}
+
+#logo h1 {
+	font-size:26px;
+	color:#F76B0C;
+	font-weight:normal;
+	text-decoration:none;
+	padding-left:40px;
+	padding-top:30px;
+}
+
+#logo h1 a { text-decoration:none; color:#F76B0C; }
+#logo h1 a:visited { text-decoration:none; color:#F76B0C; }
+
+#logo h4 {
+	font-size:11px;
+	color:#808080;
+	font-weight:normal;
+	text-decoration:none;
+	padding-left:75px;
+}
+
+#links ul {
+	margin:0px; 
+	padding-top:67px;
+}
+
+#links li{
+	float:left;
+	list-style-type:none;
+	width:103px;
+	height:25px;
+	text-align:center;
+	background-color:#F4A80A;
+	border-left:1px solid #FFF;
+	padding-top:4px;
+}
+
+#links a{
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#links a:hover{
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+#mainimg {
+	background-image:url(../images/main.png);
+	background-repeat:no-repeat;
+	height:132px;
+	text-align:right;
+}
+
+#mainimg h3 {
+	font-size:48px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+	padding:20px 40px 0px 0px;
+}
+
+#mainimg h4 {
+	font-size:18px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+	padding:0px 40px 0px 0px;
+}
+
+#contentarea {
+	clear:both;
+	padding:25px 40px;
+}
+
+#contentarea h1{
+	font-size:32px;
+	color:#EE8907;
+	font-weight:bold;
+	text-decoration:none;
+	padding-bottom:1em;
+}
+
+#contentarea h2{
+	font-size:24px;
+	color:#EE8907;
+	font-weight:normal;
+	text-decoration:none;
+	padding-bottom:5px;
+}
+
+#contentarea h2.notperformed {
+	color:#809CAB;
+}
+
+#contentarea p{
+	font-size:11px;
+	color:#797B7A;
+	font-weight:normal;
+	text-decoration:none;
+	margin-right:5em;
+}
+
+#contentarea a {
+	font-size:11px;
+	color:#EE8907;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#contentarea a:hover {
+	font-size:11px;
+	color:#EE8907;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.orangetext {
+	font-size:11px;
+	color:#EE8907;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#bottom {
+	clear:both;
+	height:32px;
+	padding-top:25px;
+}
+
+#email {
+	float:left;
+	width:500px;
+	background-color:#004D78;
+	height:27px;
+	padding-top:5px;
+}
+
+#email a{
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:underline;
+	padding:0px 40px;
+}
+
+#email a:hover{
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+	padding:0px 40px;	
+}
+
+#validtext {
+	float:left;
+	width:278px;
+	background-color:#004D78;
+	height:27px;
+	padding-top:5px;
+}
+
+#validtext p{
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:right;
+	padding-right:35px;
+}
+
+#validtext a{
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+#validtext a:hover{
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+/* form stuff */
+
+#inputmenu ul {
+	margin:0px; 
+	padding-top:67px;
+}
+
+#inputmenu li {
+	float:left;
+	list-style-type:none;
+	width:129px;
+	height:25px;
+	text-align:center;
+	background-color:#F4A80A;
+	border-left:1px solid #FFF;
+	padding-top:4px;
+}
+
+div.form-container {
+	margin-left:4em;
+}
+
+.form-container form {
+	margin-top:1em;
+}
+
+label {
+	font-size:11px;
+	color:#797B7A;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:right;
+}
+
+label.describe {
+    width: 4em;
+    float: left;
+    margin-right: 0.5em;
+    display: block;
+}
+
+
+#inputchoice a.active {
+	font-size:26px;
+	color:#009FF8;
+	font-weight:normal;
+	text-decoration:none;
+	padding: 0px;
+}
+
+#inputchoice a.active:hover {
+	font-size:26px;
+	color:#009FF8;
+	font-weight:normal;
+	text-decoration:underline;
+	padding: 0px;
+}
+
+#inputchoice a {
+	font-size:26px;
+	color:#797B7A;
+	font-weight:normal;
+	text-decoration:none;
+	padding: 0px;
+}
+
+#inputchoice a:hover {
+	font-size:26px;
+	color:#797B7A;
+	font-weight:normal;
+	text-decoration:underline;
+	padding: 0px;
+}
+
+ol.spiel {
+	margin-left:1em;
+}
+
+.spiel li {
+	font-size:11px;
+	color:#797B7A;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+dl.resources {
+	margin: 0;
+	padding: 0;
+}
+
+.resources dt {
+	font-size:11px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.resources dd {
+	color:#797B7A;
+	font-size:11px;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+ul.resources {
+	list-style-type:square;
+}
+
+.resources li
+{
+	color:#797B7A;
+	font-size:11px;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+#flash {
+	color:red;
+	background-color:white;
+	border:thin red dotted;
+	padding:1ex;
+	margin-bottom:1em;
+}
